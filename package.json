@@ -1,9 +1,14 @@
 {
   "name": "util-ffprobe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Cross platform ffprobe utility package",
   "main": "./bin/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "osenv": "^0.1.0",
+    "minimatch": "^2.0.4",
+    "handlebars": "2.0.0"
+  },
   "devDependencies": {},
   "author": "",
   "repository": {
@@ -25,5 +30,8 @@
       "name": "oliver.foster",
       "email": "oliver.foster@kineo.com"
     }
-  ]
+  ],
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  }
 }
