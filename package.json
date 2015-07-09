@@ -1,0 +1,28 @@
+{
+  "name": "util-ffprobe",
+  "version": "0.0.1",
+  "description": "Cross platform ffprobe utility package",
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/oliverfoster/util-ffprobe"
+  },
+  "license": "GPLv3",
+  "bin": {
+    "util-ffprobe-win": "./bin/util-ffprobe-win.exe",
+    "util-ffprobe-mac": "./bin/util-ffprobe-mac",
+    "util-ffprobe-linux": "./bin/util-ffprobe-linux"
+  },
+  "bugs": {
+    "url": "https://github.com/oliverfoster/util-ffprobe/issues"
+  },
+  "homepage": "https://github.com/oliverfoster/util-ffprobe",
+  "maintainers": [
+    {
+      "name": "oliver.foster",
+      "email": "oliver.foster@kineo.com"
+    }
+  ]
+}
