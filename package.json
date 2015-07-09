@@ -1,7 +1,8 @@
 {
   "name": "util-ffprobe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cross platform ffprobe utility package",
+  "main": "./bin/index.js",
   "dependencies": {},
   "devDependencies": {},
   "author": "",
