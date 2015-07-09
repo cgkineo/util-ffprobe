@@ -16,11 +16,6 @@
     "url": "http://github.com/oliverfoster/util-ffprobe"
   },
   "license": "GPLv3",
-  "bin": {
-    "util-ffprobe-win": "./bin/util-ffprobe-win.exe",
-    "util-ffprobe-mac": "./bin/util-ffprobe-mac",
-    "util-ffprobe-linux": "./bin/util-ffprobe-linux"
-  },
   "bugs": {
     "url": "https://github.com/oliverfoster/util-ffprobe/issues"
   },
